@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0b1020;
+  --text: #0f172a;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  color: var(--text);
+  background: white;
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1120px;
+}
